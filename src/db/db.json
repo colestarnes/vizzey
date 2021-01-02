@@ -1,0 +1,32 @@
+[
+    {
+    "link":"https://hotelux.herokuapp.com/login",
+    "image":"assets/",
+    "imageAlt": "Hotelux",
+    "title": "Hotelux",
+    "description":"For our final project, my group and I made a functional hotel finder. "
+
+},
+{
+    "link":"https://github.com/colestarnes/Mindful",
+    "image":"assets/",
+    "imageAlt": "Mindful",
+    "title": "Mindful",
+    "description":"For our second project, my team and I made a project planning app."
+
+}, 
+{
+    "link":"https://colestarnes.github.io/WeatherApp/",
+    "image":"assets/",
+    "imageAlt": "weather",
+    "title": "Weather App",
+    "description":"First application I made that uses an API."
+},
+{
+    "link":"https://github.com/colestarnes/Mindful",
+    "image":"assets/",
+    "imageAlt": "Mindful",
+    "title": "Mindful",
+    "description":"For our second project, my team and I made a project planning app."
+}
+]
