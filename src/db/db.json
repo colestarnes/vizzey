@@ -1,7 +1,7 @@
 [
     {
     "link":"https://hotelux.herokuapp.com/login",
-    "image":"assets/",
+    "image":"assets/Hotel3.png",
     "imageAlt": "Hotelux",
     "title": "Hotelux",
     "description":"For our final project, my group and I made a functional hotel finder. "
@@ -9,7 +9,7 @@
 },
 {
     "link":"https://github.com/colestarnes/Mindful",
-    "image":"assets/",
+    "image":"assets/Mindful_logo.png",
     "imageAlt": "Mindful",
     "title": "Mindful",
     "description":"For our second project, my team and I made a project planning app."
@@ -17,16 +17,34 @@
 }, 
 {
     "link":"https://colestarnes.github.io/WeatherApp/",
-    "image":"assets/",
-    "imageAlt": "weather",
+    "image":"assets/windy_weather1600.png",
+    "imageAlt": "Weather App",
     "title": "Weather App",
-    "description":"First application I made that uses an API."
+    "description":"For our second project, my team and I made a project planning app."
+
+},
+{
+    "link":"https://hotelux.herokuapp.com/login",
+    "image":"assets/Hotel3.png",
+    "imageAlt": "Hotelux",
+    "title": "Hotelux",
+    "description":"For our final project, my group and I made a functional hotel finder. "
+
 },
 {
     "link":"https://github.com/colestarnes/Mindful",
-    "image":"assets/",
+    "image":"assets/Mindful_logo.png",
     "imageAlt": "Mindful",
     "title": "Mindful",
     "description":"For our second project, my team and I made a project planning app."
+
+}, 
+{
+    "link":"https://colestarnes.github.io/WeatherApp/",
+    "image":"assets/windy_weather1600.png",
+    "imageAlt": "Weather App",
+    "title": "Weather App",
+    "description":"For our second project, my team and I made a project planning app."
+
 }
 ]
