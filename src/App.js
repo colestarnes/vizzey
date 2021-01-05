@@ -1,19 +1,21 @@
-import React, { Component } from 'react'; 
+import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-// import { Container, Row, Col} from 'react-bootstrap'; 
-import Card from './components/Card';
-// import Portfolio from './pages/Portfolio'; 
-import db from './db/db.json'
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import Portfolio from './pages/Portfolio';
+import Navbar from './components/Navbar';
+import Home from './pages/Home'
 
-function App() { 
+function App() {
 
 
   return ( 
-      // <p>React bootstrap</p>
-  // <Portfolio/>
-  <Portfolio/>
+    
+    <Router>
+      <Navbar/>
+      <Route exact path="/" component={Home} />
+      <Route exact path="/portfolio" component={Portfolio} />
+    </Router>
   );
 }
 
