@@ -7,7 +7,8 @@ import db from '../db/db.json';
 function Portfolio() {
     return (
         <>
-            <h3>Portfolio</h3>
+        <div style={{backgroundImage: `url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.pixelstalk.net%2Fwp-content%2Fuploads%2F2016%2F08%2FWallpapers-laptop-cool-screen.jpg&")`, backgroundRepeat: 'repeat-y', height:'15000px'}}>
+            <h3 style={{color: "white", left: 75}}>Portfolio</h3>
 
             <div>
                 <div className="row" xs={6}>
@@ -21,6 +22,7 @@ function Portfolio() {
                         )
                     })}
                 </div>
+            </div>
             </div>
         </>
     )

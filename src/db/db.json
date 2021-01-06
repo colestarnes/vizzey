@@ -24,27 +24,10 @@
 
 },
 {
-    "link":"https://hotelux.herokuapp.com/login",
-    "image":"assets/Hotel3.png",
-    "imageAlt": "Hotelux",
-    "title": "Hotelux",
+    "link":"https://marlonpacheco.github.io/Just-A-Few-Brews-Finder/",
+    "image":"https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fdata.whicdn.com%2Fimages%2F40222441%2Foriginal.png&f=1&nofb=1",
+    "imageAlt": "Just-A-Few-Brews",
+    "title": "Just-A-Few-Brews Finder",
     "description":"For our final project, my group and I made a functional hotel finder. "
-
-},
-{
-    "link":"https://github.com/colestarnes/Mindful",
-    "image":"assets/Mindful_logo.png",
-    "imageAlt": "Mindful",
-    "title": "Mindful",
-    "description":"For our second project, my team and I made a project planning app."
-
-}, 
-{
-    "link":"https://colestarnes.github.io/WeatherApp/",
-    "image":"assets/windy_weather1600.png",
-    "imageAlt": "Weather App",
-    "title": "Weather App",
-    "description":"For our second project, my team and I made a project planning app."
-
 }
 ]
