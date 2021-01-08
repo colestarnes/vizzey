@@ -29,5 +29,12 @@
     "imageAlt": "Just-A-Few-Brews",
     "title": "Just-A-Few-Brews Finder",
     "description":"For our final project, my group and I made a functional hotel finder. "
+}, 
+{
+    "link":"https://colestarnes.github.io/Quiz/", 
+    "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Question_mark_alternate.svg/1200px-Question_mark_alternate.svg.png", 
+    "imageAlt":"Quiz", 
+    "title": "Quiz App", 
+    "description": "My first ever timed quiz app. Here, I used the localstorage function for the first time to keep track of the high scores."
 }
 ]

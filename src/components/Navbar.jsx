@@ -10,8 +10,7 @@ function Navbar() {
   <ReactBootStrap.Navbar.Collapse id="basic-navbar-nav">
     <ReactBootStrap.Nav className="mr-auto">
       <ReactBootStrap.Nav.Link href="/">Home</ReactBootStrap.Nav.Link>
-      <ReactBootStrap.Nav.Link href="/portfolio">Portfolio</ReactBootStrap.Nav.Link> 
-      <ReactBootStrap.Nav.Link href="/contact">Contact</ReactBootStrap.Nav.Link> 
+      <ReactBootStrap.Nav.Link href="/portfolio">Portfolio</ReactBootStrap.Nav.Link>  
     </ReactBootStrap.Nav>
   </ReactBootStrap.Navbar.Collapse>
 </ReactBootStrap.Navbar> 
