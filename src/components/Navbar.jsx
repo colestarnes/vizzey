@@ -1,18 +1,63 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import * as ReactBootStrap from 'react-bootstrap';
+import { BsFillPersonFill } from 'react-icons/bs';
+import { FiMail } from 'react-icons/fi';
+import { FaPlus, FaSearch } from 'react-icons/fa';
+import { AiTwotoneBell } from 'react-icons/ai';
+import './navbar.css';
 
 function Navbar() {
   return (
-<ReactBootStrap.Navbar bg="light" expand="lg">
-  <ReactBootStrap.Navbar.Brand href="#home">Cole Starnes portfolio</ReactBootStrap.Navbar.Brand>
-  <ReactBootStrap.Navbar.Toggle aria-controls="basic-navbar-nav" />
-  <ReactBootStrap.Navbar.Collapse id="basic-navbar-nav">
-    <ReactBootStrap.Nav className="mr-auto">
-      <ReactBootStrap.Nav.Link href="/">Home</ReactBootStrap.Nav.Link>
-      <ReactBootStrap.Nav.Link href="/portfolio">Portfolio</ReactBootStrap.Nav.Link>  
-    </ReactBootStrap.Nav>
-  </ReactBootStrap.Navbar.Collapse>
-</ReactBootStrap.Navbar> 
-  )}
+<div className="">
+    <section className="search-bar">
+      <div className="row">
+        <div className="col-lg mx-auto"> 
+          <form>
+            <div>
+              <div className="input-group">
+                <div className="homeBtn">
+                <h3>VIZZEY</h3> 
+                </div> 
+              
+                <input type="search" placeholder="Search" className="form-control" />
+                <button className="searchBtn">
+                  
+                  <FaSearch />
+
+                  </button>
+                <div className="input-group-append buttons">
+                
+                  
+                  <div className="icon">
+                    <button className="icon-btn">
+                      <h4><FiMail /></h4>
+                    </button>
+                  </div>
+                  <div className="icon">
+                    <button className="icon-btn">
+                      <h4><FaPlus /></h4>
+                    </button>
+                  </div>
+                  <div className="icon">
+                    <button className="icon-btn">
+                      <h4><AiTwotoneBell /></h4>
+                    </button>
+                  </div>
+                  <div className="icon">
+                    <button className="icon-btn">
+                      <h4><BsFillPersonFill /></h4>
+                    </button> 
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+        
+      </div>
+      
+    </section>  
+    </div>
+  )
+}
 export default Navbar;
