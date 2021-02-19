@@ -1,12 +1,11 @@
-
 .searchBtn {
     color: #fff;
-    background-color: #00ff9d;
+    background-color: #00ce7f;
     height: 38px; 
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px; 
     width: 40px;   
-    border: black; 
+    border: none;  
 }    
 
 form {
@@ -41,17 +40,25 @@ display: flex;
 
 
 .search-bar {
-    width: auto; 
-    border: solid  #272931; 
-    background-color: #272931; 
-    padding-bottom: 10px;
+    width: 100%; 
+    border: solid  #333333; 
+    background-color: #333333; 
+    padding-bottom: 10px;   
+    position: fixed; 
+    z-index: 9000;
+}
+
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+  appearance: none;
 }
 
 .icon-btn {
     height: 40px; 
     width: 40px; 
     border-radius: 5px; 
-    background-color: #00ff9d;
+    background-color: #00ce7f;
     color: white; 
     outline-color: chocolate; 
     border: none;
@@ -60,7 +67,7 @@ display: flex;
 .homeBtn {
     padding-right: 60px; 
     padding-left: 50px; 
-    color: #00ff9d;  
+    color: #00ce7f;  
  
 } 
 
@@ -69,6 +76,8 @@ display: flex;
     padding-right: 15px;
 }
  
-.dropdown {
-    
-}
+button:focus, button:active {
+    outline: none !important;
+    box-shadow: none !important; 
+    background-color: rgb(111, 0, 255);
+  }

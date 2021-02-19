@@ -1,0 +1,16 @@
+.background {
+    background-color: rgb(73, 74, 75);
+    height: auto; 
+    width: 100vw;  
+} 
+
+.container {
+    background-color: rgb(97, 97, 97);   
+    border-width: 100px;
+    height: auto; 
+    width: 100vw; 
+}
+ 
+.vids {
+    padding-left: 10px;
+}

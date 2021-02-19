@@ -8,7 +8,6 @@ import './navbar.css';
 
 function Navbar() {
   return (
-<div className="">
     <section className="search-bar">
       <div className="row">
         <div className="col-lg mx-auto"> 
@@ -53,11 +52,8 @@ function Navbar() {
             </div>
           </form>
         </div>
-        
       </div>
-      
     </section>  
-    </div>
   )
 }
 export default Navbar;

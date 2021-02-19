@@ -2,7 +2,7 @@ import React from 'react';
 import Card from '../components/Card';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import db from '../db/db.json';
-import SocialMedia from '../components/SocialMedia';
+
 
 
 function Portfolio() {
@@ -25,7 +25,6 @@ function Portfolio() {
                     </div>
                 </div>
             </div>
-            <SocialMedia />
         </>
     )
 }
