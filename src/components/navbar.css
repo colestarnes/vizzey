@@ -1,0 +1,127 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+  }
+
+ul {
+    list-style: none; 
+    display: flex;
+} 
+
+a {
+    text-decoration: none; 
+    color: #fff;
+} 
+
+.homeBtn {
+    text-align: center; 
+    justify-content: center; 
+    padding-left: 10px;
+}
+
+#nav-bar {
+    background-color: #626466;
+    overflow: hidden;
+} 
+
+.container {
+    display: grid; 
+    grid-template-columns: 1fr 6fr 1fr;
+    align-items: center; 
+    height: 55px;
+} 
+
+.form-control {
+    background-color: rgb(255, 255, 255); 
+    border-color: rgb(133, 133, 133);  
+    border-top-left-radius: 5px !important;
+    border-bottom-left-radius: 5px !important; 
+    height: 40px; 
+    width: 70%; 
+    flex: auto;
+    border: none; 
+    padding-left: 10px;  
+    justify-content: center; 
+    align-items: center; 
+}   
+
+.homeBtn {
+    padding-left: 25%; 
+    color:#00ce7f; 
+} 
+
+.search { 
+    padding-left: 15%; 
+  align-items: center;
+  position:relative;
+}
+.btn { 
+    padding-right: 10px; 
+} 
+
+.ugh-buttons {
+padding-right: 20px;
+}
+
+.icon-btn {
+    height: 40px; 
+    width: 40px; 
+    border-radius: 5px; 
+    background-color: #00ce7f;
+    color: white; 
+    border: none; 
+}
+
+
+button:active {
+    outline: none !important;
+    box-shadow: none !important; 
+    background-color: rgb(111, 0, 255);
+} 
+
+button:focus {
+    outline: none !important;
+    box-shadow: none !important; 
+}
+
+button:hover {
+    cursor: pointer;
+} 
+
+.searchBtn {
+    color: #fff;
+    background-color: #00ce7f;
+    height: 40px; 
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px; 
+    width: 40px;   
+    border: none;  
+    font-weight: bold; 
+}       
+
+.buttons {
+    color: #fff;
+    background-color: #00ce7f;
+    height: 38px; 
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px; 
+    border-top-left-radius: 5px; 
+    border-bottom-left-radius: 5px; 
+   text-align: center;
+    width: 40px;   
+    border: none; 
+    font-size: large; 
+    font-weight: bold; 
+}
+ 
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+input {
+    outline: none; 
+}
+
