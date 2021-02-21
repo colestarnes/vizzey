@@ -1,4 +1,4 @@
-*{
+* {
     margin:0;
     padding:0;
     box-sizing:border-box;
@@ -17,7 +17,8 @@ a {
 .homeBtn {
     text-align: center; 
     justify-content: center; 
-    padding-left: 10px;
+    padding-left: 25%; 
+    color:#00ce7f; 
 }
 
 #nav-bar {
@@ -37,31 +38,24 @@ a {
     border-color: rgb(133, 133, 133);  
     border-top-left-radius: 5px !important;
     border-bottom-left-radius: 5px !important; 
-    height: 40px; 
+    height: 38px; 
     width: 70%; 
-    flex: auto;
     border: none; 
-    padding-left: 10px;  
-    justify-content: center; 
-    align-items: center; 
+    padding-left: 10px;   
+    font-size: 20px; 
 }   
 
-.homeBtn {
-    padding-left: 25%; 
-    color:#00ce7f; 
-} 
 
 .search { 
-    padding-left: 15%; 
-  align-items: center;
-  position:relative;
+    padding-left: 15%;  
 }
+
 .btn { 
     padding-right: 10px; 
 } 
 
 .ugh-buttons {
-padding-right: 20px;
+padding-right: 20px; 
 }
 
 .icon-btn {
@@ -70,7 +64,9 @@ padding-right: 20px;
     border-radius: 5px; 
     background-color: #00ce7f;
     color: white; 
-    border: none; 
+    border: none;  
+    font-size: x-large; 
+    
 }
 
 
@@ -92,12 +88,13 @@ button:hover {
 .searchBtn {
     color: #fff;
     background-color: #00ce7f;
-    height: 40px; 
+    height: 38px;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px; 
     width: 40px;   
-    border: none;  
-    font-weight: bold; 
+    border: none;    
+    font-size: large; 
+  
 }       
 
 .buttons {
@@ -108,11 +105,8 @@ button:hover {
     border-bottom-right-radius: 5px; 
     border-top-left-radius: 5px; 
     border-bottom-left-radius: 5px; 
-   text-align: center;
     width: 40px;   
     border: none; 
-    font-size: large; 
-    font-weight: bold; 
 }
  
 [type="search"]::-webkit-search-cancel-button,
@@ -124,4 +118,3 @@ button:hover {
 input {
     outline: none; 
 }
-

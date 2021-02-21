@@ -2,7 +2,7 @@ import React from 'react';
 import { BsFillPersonFill } from 'react-icons/bs';
 import { FiMail } from 'react-icons/fi';
 import { FaPlus, FaSearch } from 'react-icons/fa';
-import { AiTwotoneBell } from 'react-icons/ai';
+import { AiTwotoneBell, AiOutlineSearch } from 'react-icons/ai';
 import './navbar.css';
 function Navbar() {
   return (
@@ -11,20 +11,21 @@ function Navbar() {
         <h2 className="homeBtn">VIZZEY</h2>
         <div className="search">   
           <input type="search" placeholder="Search" className="form-control" />
-          <button className="searchBtn">o</button>
+          <button className="searchBtn"><AiOutlineSearch/></button>
         </div>
         <ul className="ugh-buttons">
           <li className="btn">
-            <button className="icon-btn">lol</button>
+            <button className="icon-btn">
+              <FiMail/></button>
           </li>
           <li className="btn">
-            <button className="icon-btn">lol</button>
+            <button className="icon-btn"><FaPlus/></button>
           </li>
           <li className="btn">
-            <button className="icon-btn">lol</button>
+            <button className="icon-btn"><AiTwotoneBell/></button>
           </li>
           <li className="btn">
-            <button className="icon-btn">lol</button>
+            <button className="icon-btn"><BsFillPersonFill/></button>
           </li>
         </ul>
       </div>
