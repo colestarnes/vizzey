@@ -7,7 +7,11 @@
 ul {
     list-style: none; 
     display: flex;
-} 
+}  
+
+li {
+    list-style: none;
+}
 
 a {
     text-decoration: none; 
@@ -66,14 +70,14 @@ padding-right: 20px;
     color: white; 
     border: none;  
     font-size: x-large; 
-    
 }
-
 
 button:active {
     outline: none !important;
     box-shadow: none !important; 
     background-color: rgb(111, 0, 255);
+color: white; 
+border: none;
 } 
 
 button:focus {
@@ -118,3 +122,67 @@ button:hover {
 input {
     outline: none; 
 }
+ 
+
+
+.hide {
+    visibility: hidden; 
+}
+
+.dropdown {
+    height: 120px; 
+    width: 40px; 
+    border-radius: 5px; 
+    background-color: #00ce7f;
+    color: white; 
+    border: none;  
+    font-size: x-large; 
+} 
+
+.card {
+    position: fixed; 
+    top: 49px; 
+    right: 30px; 
+    height: 50vh; 
+    width: 350px;  
+    border: salmon; 
+    border-width: 10px;
+ 
+    z-index: 1; 
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 5px;
+}
+
+.profileSettings { 
+   width: 200px;
+   height: 35px;
+   border:  #00ce7f; 
+   border-style: solid;  
+   border-radius: 5px; 
+   background-color: white; 
+   color: #00ce7f; 
+   font-weight: bold;
+}
+
+.topProfileSettings { 
+    width: 200px;
+    height: 35px;
+    border:  #00ce7f; 
+    border-style: solid;  
+    border-radius: 5px; 
+    background-color: white;
+    color: #00ce7f; 
+   font-weight: bold;
+ }
+.bottomProfileSettings { 
+    width: 200px;
+    height: 35px;
+    border: #00ce7f; 
+    border-style: solid;  
+    border-radius: 5px; 
+    background-color: white;
+    color: #00ce7f; 
+   font-weight: bold;
+ }
